@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Cart</h1>
+
+    <div class="cart-item">
+      <p>Price of item 1: <strong id="priceItem1">650</strong> PKR</p>
+      <p>Quantity of item 1: <strong id="quantityItem1">0</strong></p>
+      <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+
+    <div class="cart-item">
+      <p>Price of item 2: <strong id="priceItem2">100</strong> PKR</p>
+      <p>Quantity of item 2: <strong id="quantityItem2">0</strong></p>
+      <button onclick="addToCart(2)">Add to Cart</button>
+    </div>
+
+    <div class="shipping">
+      <p>Shipping Charges: <strong id="shippingCharges">100</strong> PKR</p>
+    </div>
+
+    <div class="total">
+      <h2>Total Cost of Your Order: <strong id="totalCost"></strong></h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

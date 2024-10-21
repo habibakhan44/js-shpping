@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  .cart-item, .shipping {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .total h2 {
+    font-size: 1.6em;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #34b685, #309da5);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
